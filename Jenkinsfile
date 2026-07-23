@@ -64,7 +64,7 @@ pipeline {
 
                 docker run -d \
                     --name $CONTAINER_NAME \
-                    -p 8080:8080 \
+                    -p 8083:8080 \
                     $IMAGE_NAME
                 '''
             }
